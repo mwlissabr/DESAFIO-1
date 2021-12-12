@@ -1,0 +1,141 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: #212121;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+nav#menu {
+    position: absolute; 
+    top: 0;
+    right: 100px;
+    margin: 10px;
+}
+
+nav > #home {
+    width: 100px;
+    height: 30px;
+    background-color: #F9A825;
+    padding: 5px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 100px;
+    margin-right: 10px;
+    
+}
+
+nav > #contato {
+    margin-right: 40px;
+}
+
+nav#menu > .navegação {
+    color: #fff;
+}
+
+#logo {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 150px;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    height: auto;
+
+}
+
+section > .seção {
+    color: black;
+}
+
+p {
+    width: 370px;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 10px;
+    background-color: rgba(185, 173, 173, 0.082);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+    width: 100%;
+    height: auto;
+    border-right: 1px dashed black;
+}
+
+form {
+    margin: 0 auto;
+    border-left: 1px dashed black;
+    margin-left: 380px;
+    margin-top: -180px;
+    padding: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+label {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin-left: -15px;
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin-left: -30px;
+    padding: 2px;
+}
+
+#emailUsu {
+    padding: 5px;
+}
+
+#enviar {
+    margin-left: -30px;
+    margin-top: 5px;
+    padding: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    background-color: #212121;
+}
+
+footer > h5#rodapé {
+    margin: 30px auto;
+    width: 150px;
+    height: auto;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
